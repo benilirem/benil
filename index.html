@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Create Account</title> 
+    <link rel="stylesheet" href="mystyle.css" />
+    <style>
+      .p {
+        background-color: #ECFFDC;
+      }
+
+      .p1 {
+        color: black;
+      }
+    </style>
+  </head>
+  
+  <body>
+    <form>
+      <table border="0" cellpadding="10" cellspacing="15" id="border">
+        <tr>
+          <td class="p1" colspan="2">Create Account</td>
+        </tr>
+        <tr>
+          <td>First Name *<br><input class="p" type="text" placeholder="Enter your first name"></td>
+        </tr>
+        <tr>
+          <td>Last Name *<br><input class="p" type="text" placeholder="Enter your last name"></td>
+        </tr>
+        <tr>
+          <td>Email *<br><input class="p" type="email" placeholder="Enter your email"></td> 
+        </tr>
+        <tr>
+          <td>Password *<br><input class="p" type="password" placeholder="Enter your password" minlength="8"></td> 
+        </tr>
+        <tr>
+          <td>Confirm Password *<br><input class="p" type="password" placeholder="Enter your password again" minlength="8"></td>
+        </tr>
+        <tr>
+          <td>Gender:<br>
+            <input type="radio" name="gender"> <label>Male</label>
+            <input type="radio" name="gender"> <label>Female</label>
+            <input type="radio" name="gender"> <label>Other</label>
+            <input type="radio" name="gender"> <label>Prefer not to say</label>
+          </td> 
+        </tr>
+        <tr>
+          <td>Hobbies:<br>
+            <input type="checkbox"> <label>Music</label>
+            <input type="checkbox"> <label>Sports</label>
+            <input type="checkbox"> <label>Travel</label>
+            <input type="checkbox"> <label>Movies</label>	
+          </td>
+        </tr>
+        <tr>
+          <td>Source of Income:<br>
+            <select class="p" name="income">
+              <option value="Employed">Employed</option>
+              <option value="Unemployed">Unemployed</option>
+            </select>
+          </td> 
+        </tr>
+        <tr>
+          <td>Bio<br><input class="p" type="text"></td> 
+        </tr>
+        <tr>
+          <td><i>*required</i><input type="image" src="button.jpeg" alt="Create" width="100"></td> 
+        </tr>
+      </table>
+    </form>
+  </body>
+</html>
